@@ -6,6 +6,7 @@ import com.sun.tools.javac.util.Pair;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
 import main.Paxos;
@@ -33,7 +34,7 @@ public class EpochConsensus {
   private final Thread epThread;
   final PerfectLink pl;
   volatile List<ProcessId> involvedProcesses;
-  volatile List<Pair<Integer, Value>> states;
+  volatile CopyOnWriteArrayList<Pair<Integer, Value>> states;
   volatile ProcessId leader;
   volatile ProcessId self;
   int ets;
@@ -59,7 +60,7 @@ public class EpochConsensus {
     this.val = val;
     this.tmpval = -1;
     this.accepted = 0;
-    this.states = new ArrayList<>();
+    this.states = new CopyOnWriteArrayList<>();
 
     this.leader = leader;
     this.self = self;
@@ -69,9 +70,9 @@ public class EpochConsensus {
     Runnable epochConsensusThread =
         () -> {
           while (!isAborted) {
-            if (accepted > (this.involvedProcesses.size() / 2)
-                && self.getPort() == leader.getPort()) {
-              accepted = 0;
+            if (this.accepted > (this.involvedProcesses.size() / 2)
+                && this.self.getPort() == leader.getPort()) {
+              this.accepted = 0;
               SystemLogger.getInstance()
                   .info(
                       String.format(
@@ -96,13 +97,13 @@ public class EpochConsensus {
                       .build());
             }
 
-            if (states.size() > involvedProcesses.size() / 2
-                && self.getPort() == leader.getPort()) {
+            if ( (this.states.size() >  (this.involvedProcesses.size() / 2 ))
+                && this.self.getPort() == this.leader.getPort()) {
               final Pair<Integer, Value> highest = highest(states);
-              if (nonNull(highest.snd) && highest.snd.getV() != 0) {
+              if (nonNull(highest) && highest.snd.getV() > 0) {
                 this.tmpval = highest.snd.getV();
               }
-              states = new ArrayList<>();
+              states = new CopyOnWriteArrayList<>();
               SystemLogger.getInstance()
                   .info(
                       String.format(
@@ -134,9 +135,16 @@ public class EpochConsensus {
   }
 
   private Pair<Integer, Value> highest(final List<Pair<Integer, Value>> states) {
-    return states.stream()
-        .max(Comparator.comparing(integerValuePair -> integerValuePair.fst))
-        .orElseThrow(NoSuchFieldError::new);
+    if (states.isEmpty()) {
+      return null;
+    }
+    Pair<Integer, Value> highest = states.get(0);
+    for (Pair<Integer, Value> s : states) {
+      if (s.fst > highest.fst) {
+        highest = s;
+      }
+    }
+    return highest;
   }
 
   private boolean handle(final Message message) {

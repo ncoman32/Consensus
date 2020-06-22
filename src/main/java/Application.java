@@ -39,16 +39,15 @@ public class Application {
     final List<ProcessId> involvedProcesses =
         appProposeMessage.getNetworkMessage().getMessage().getAppPropose().getProcessesList();
 
-    // to be used in UC_PROPOSE
-    final Value processValue =
-        appProposeMessage.getNetworkMessage().getMessage().getAppPropose().getValue();
-
     final ProcessId currentProcessId = getCurrentProcessId(involvedProcesses);
 
     final PerfectLink pl = new PerfectLink(SocketUtils.PROCESS_SERVER, currentProcessId, SYSTEM_ID);
     final BestEffortBroadcast beb = new BestEffortBroadcast(pl, involvedProcesses);
 
-    // Start the algorithm by adding the UC_PROPOSE message in the message queue
+    // Start the al adding the UC_PROPOSE message in the message queue
+    // it will de processed by the UniformConsensus abstraction
+    final Value processValue =
+        appProposeMessage.getNetworkMessage().getMessage().getAppPropose().getValue();
     pl.enqueue(
         Message.newBuilder()
             .setType(Type.UC_PROPOSE)

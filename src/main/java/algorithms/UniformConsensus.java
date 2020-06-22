@@ -129,9 +129,11 @@ public class UniformConsensus {
                 "[EP][%s] Handling EP_DECIDE, val =%s ",
                 self.getPort(), message.getEpDecide().getValue()));
     if (message.getEpDecide().getEts() == ets) {
-      if (!decided) {
-        decided = true;
+      if (decided) {
+        return true;
       }
+      decided = true;
+
       SystemLogger.getInstance()
           .info(
               String.format(
