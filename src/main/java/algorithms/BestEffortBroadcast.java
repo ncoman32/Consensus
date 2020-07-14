@@ -1,7 +1,6 @@
 package algorithms;
 
 import static main.Paxos.Message.Type.BEB_DELIVER;
-import static main.Paxos.Message.Type.PL_DELIVER;
 import static main.Paxos.Message.Type.PL_SEND;
 
 import java.util.List;

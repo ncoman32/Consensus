@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="69a8dd86-af34-4545-af42-cd9aee5cf80d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/EpochConsensus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/EpochConsensus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/myapp.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/paxos.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/paxos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/myapp.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/myapp.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/paxos.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/paxos.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/PerfectLink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="124" column="55" selection-start-line="124" selection-start-column="55" selection-end-line="124" selection-end-column="55" />
+            <state relative-caret-position="133">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2346#2347#0" expanded="true" />
@@ -62,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/UniformConsensus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1296">
+            <state relative-caret-position="369">
               <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="36" column="12" selection-start-line="36" selection-end-line="37" />
+            <state relative-caret-position="414">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,37 +112,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/SystemLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/SocketUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1714">
-              <caret line="127" column="22" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/EpochConsensus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2931">
-              <caret line="106" column="40" lean-forward="true" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
+            <state relative-caret-position="263">
+              <caret line="201" column="21" selection-start-line="201" selection-start-column="21" selection-end-line="201" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#11253#11254#0" expanded="true" />
                 <element signature="e#11279#11280#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -153,8 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.setValue</find>
-      <find>Value.newBui</find>
       <find>Value.setV</find>
       <find>Value.newBuilder()</find>
       <find>return false</find>
@@ -180,8 +171,10 @@
       <find>EP_WRITE</find>
       <find>UC_DECIDE</find>
       <find>abort</find>
-      <find>EP_DECIDED</find>
       <find>ep_DECIDED</find>
+      <find>Handling EP_DECIDE</find>
+      <find>EP_DECIDED</find>
+      <find>Handling EP_DECIDED. Sending EP_DECIDE.</find>
       <find>decided</find>
     </findStrings>
   </component>
@@ -208,11 +201,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/myapp.log" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/EventualLeaderDetector.java" />
         <option value="$PROJECT_DIR$/target/generated-sources/main/Paxos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithms/PerfectLink.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithms/EpochConsensus.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/UniformConsensus.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/PerfectLink.java" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/EpochConsensus.java" />
       </list>
     </option>
   </component>
@@ -516,18 +509,17 @@
       <workItem from="1592378653801" duration="36000" />
       <workItem from="1592585177509" duration="7462000" />
       <workItem from="1592593007218" duration="18215000" />
-      <workItem from="1592819007839" duration="3278000" />
+      <workItem from="1592819007839" duration="4660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148010000" />
+    <option name="totallyTimeSpent" value="149392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="27" width="1853" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34919757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34919757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -537,16 +529,16 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49142224" weight="0.32824427" />
+      <window_info anchor="bottom" x="2005" y="415" width="1817" height="294" id="Run" order="2" sideWeight="0.49142224" weight="0.32824427" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.87825125" weight="0.41330424" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4964029" visible="true" weight="0.32824427" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50857776" side_tool="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50857776" side_tool="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4964029" weight="0.32824427" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969563" weight="0.32824427" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24971624" />
@@ -748,13 +740,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/myapp.log.2020-06-19" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-sources/main/Paxos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277575">
@@ -1820,14 +1805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/myapp.log">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-1443038">
-          <caret line="7284" column="89" selection-start-line="7284" selection-start-column="80" selection-end-line="7284" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/paxos.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1859,18 +1836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/PerfectLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="124" column="55" selection-start-line="124" selection-start-column="55" selection-end-line="124" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/EventuallyPerfectFailureDetector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-971">
@@ -1887,18 +1852,6 @@
           <caret line="53" column="20" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/EpochConsensus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2931">
-          <caret line="106" column="40" lean-forward="true" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11253#11254#0" expanded="true" />
-            <element signature="e#11279#11280#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1923,9 +1876,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/PerfectLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/UniformConsensus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296">
+        <state relative-caret-position="369">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1933,12 +1908,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="36" column="12" selection-start-line="36" selection-end-line="37" />
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/myapp.log">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="186">
+          <caret line="119" column="72" selection-start-line="119" selection-start-column="72" selection-end-line="119" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/EpochConsensus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="201" column="21" selection-start-line="201" selection-start-column="21" selection-end-line="201" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#11253#11254#0" expanded="true" />
+            <element signature="e#11279#11280#0" expanded="true" />
           </folding>
         </state>
       </provider>

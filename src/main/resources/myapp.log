@@ -5678,3 +5678,3261 @@ plDeliver {
   }
 }
 
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling UC_PROPOSE. Proposed value = defined: true
+v: 38
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling UC_PROPOSE. Proposed value = defined: true
+v: 15
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5005] Handling UC_PROPOSE. Proposed value = defined: true
+v: 93
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handle EP_READ
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    messageUuid: "88d1bfc5-7739-42b9-aa09-3f9907888931"
+    abstractionId: "ec"
+    systemId: "sys-1"
+    ecNewEpoch_ {
+      timestamp: 6
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5003
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5006] Trigger EC_START_EPOCH
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handle EP_READ
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5005] Handle EP_READ
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5005] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    messageUuid: "88d1bfc5-7739-42b9-aa09-3f9907888931"
+    abstractionId: "ec"
+    systemId: "sys-1"
+    ecNewEpoch_ {
+      timestamp: 6
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5003
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5005] Trigger EC_START_EPOCH
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5005] Handle EP_READ
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5005] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    messageUuid: "88d1bfc5-7739-42b9-aa09-3f9907888931"
+    abstractionId: "ec"
+    systemId: "sys-1"
+    ecNewEpoch_ {
+      timestamp: 6
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5003
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5004] Trigger EC_START_EPOCH
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling EC_START_EPOCH
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling EP_ABORT. Aborting EP
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5005] Handling EC_START_EPOCH
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORT. Aborting EP
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    messageUuid: "aae1af8b-c50c-4e6d-b6a8-e5f51a042bbf"
+    abstractionId: "ep6"
+    systemId: "sys-1"
+    epWrite_ {
+      value {
+        defined: true
+        v: 96
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5003
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    messageUuid: "74414b3f-206f-4e06-b3a9-a6a2528340ed"
+    abstractionId: "ep6"
+    systemId: "sys-1"
+    epDecided_ {
+      value {
+        defined: true
+        v: 96
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5003
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDE, val =defined: true
+v: 96
+ 
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5006] Sending UC_DECIDE, val = defined: true
+v: 96
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    messageUuid: "aae1af8b-c50c-4e6d-b6a8-e5f51a042bbf"
+    abstractionId: "ep6"
+    systemId: "sys-1"
+    epWrite_ {
+      value {
+        defined: true
+        v: 96
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5003
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5001
+    owner: "ref"
+    index: 1
+    rank: 4
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling EC_START_EPOCH
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORT. Aborting EP
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    messageUuid: "aae1af8b-c50c-4e6d-b6a8-e5f51a042bbf"
+    abstractionId: "ep6"
+    systemId: "sys-1"
+    epWrite_ {
+      value {
+        defined: true
+        v: 96
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5003
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    messageUuid: "74414b3f-206f-4e06-b3a9-a6a2528340ed"
+    abstractionId: "ep6"
+    systemId: "sys-1"
+    epDecided_ {
+      value {
+        defined: true
+        v: 96
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5003
+  }
+}
+
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDE, val =defined: true
+v: 96
+ 
+07/14/2020 03:08:24 PM|INFO |system_logger                 | [EP][5004] Sending UC_DECIDE, val = defined: true
+v: 96
+
+07/14/2020 03:08:25 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:25 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5001
+    owner: "ref"
+    index: 1
+    rank: 4
+  }
+}
+
+07/14/2020 03:08:25 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:25 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:25 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:25 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:29 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5001
+    owner: "ref"
+    index: 1
+    rank: 4
+  }
+}
+
+07/14/2020 03:08:29 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:29 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:29 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:30 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:30 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:30 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:30 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:30 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:31 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:32 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:33 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:08:33 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST. Boradcasting EC_NEW_EPOCH
+07/14/2020 03:08:33 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:33 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 9
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:08:33 PM|INFO |system_logger                 | [EC][5005] Trigger EC_NACK
+07/14/2020 03:08:33 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 9
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:08:33 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:08:33 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 9
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:08:33 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:08:33 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:34 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:34 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:34 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:08:35 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:35 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5001
+    owner: "ref"
+    index: 1
+    rank: 4
+  }
+}
+
+07/14/2020 03:08:35 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:36 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5001
+    owner: "ref"
+    index: 1
+    rank: 4
+  }
+}
+
+07/14/2020 03:08:37 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:37 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:37 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:37 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:38 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:08:38 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5001
+    owner: "ref"
+    index: 1
+    rank: 4
+  }
+}
+
+07/14/2020 03:08:40 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:40 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:40 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:41 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5001
+    owner: "ref"
+    index: 1
+    rank: 4
+  }
+}
+
+07/14/2020 03:08:42 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:42 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:44 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:08:44 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5001
+    owner: "ref"
+    index: 1
+    rank: 4
+  }
+}
+
+07/14/2020 03:08:44 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:08:44 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:46 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:47 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5003
+    owner: "ref"
+    index: 3
+    rank: 6
+  }
+}
+
+07/14/2020 03:08:50 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:50 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:08:50 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5002
+    owner: "ref"
+    index: 2
+    rank: 5
+  }
+}
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST. Boradcasting EC_NEW_EPOCH
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 15
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EC][5004] Trigger EC_START_EPOCH
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5004] Handling EC_START_EPOCH
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORT. Aborting EP
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 15
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EC][5006] Trigger EC_START_EPOCH
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Handling EC_START_EPOCH
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Handling EP_ABORT. Aborting EP
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 15
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EC][5005] Trigger EC_START_EPOCH
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5005] Handling EC_START_EPOCH
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORT. Aborting EP
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Sending EP_PROPOSE val = defined: true
+v: 15
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Handling EP_PROPOSE type: EP_PROPOSE
+abstractionId: "uc"
+epPropose {
+  value {
+    defined: true
+    v: 15
+  }
+}
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Handling EP_PROPOSE. Broadcasting EP_READ
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5005] Handle EP_READ
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5005] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 96
+      }
+    }
+  }
+}
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 96
+      }
+    }
+  }
+}
+
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Handle EP_READ
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:08:51 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 96
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling UC_PROPOSE. Proposed value = defined: true
+v: 47
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling UC_PROPOSE. Proposed value = defined: true
+v: 51
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling UC_PROPOSE. Proposed value = defined: true
+v: 40
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_PROPOSE val = defined: true
+v: 40
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling ELD_TRUST. Boradcasting EC_NEW_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_PROPOSE type: EP_PROPOSE
+abstractionId: "uc"
+epPropose {
+  value {
+    defined: true
+    v: 40
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_PROPOSE. Broadcasting EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 6
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_PROPOSE val = defined: true
+v: 40
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_PROPOSE type: EP_PROPOSE
+abstractionId: "uc"
+epPropose {
+  value {
+    defined: true
+    v: 40
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_PROPOSE. Broadcasting EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      value {
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 6
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 6
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      value {
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_WRITE 40, val = 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      value {
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      value {
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_WRITE 40, val = 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      value {
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      value {
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_WRITE 40, val = 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_DECIDED, val = 40
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_DECIDED, val = 40
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending UC_DECIDE, val = defined: true
+v: 40
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_DECIDED, val = 40
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_DECIDED, val = 40
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Sending UC_DECIDE, val = defined: true
+v: 40
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Sending UC_DECIDE, val = defined: true
+v: 40
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5005
+    owner: "ncoman"
+    index: 2
+    rank: 2
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST. Boradcasting EC_NEW_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5005
+    owner: "ncoman"
+    index: 2
+    rank: 2
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 5
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 8
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 5
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 8
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 11
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Sending EP_PROPOSE val = defined: true
+v: 51
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_PROPOSE type: EP_PROPOSE
+abstractionId: "uc"
+epPropose {
+  value {
+    defined: true
+    v: 51
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_PROPOSE. Broadcasting EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 11
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 5
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 8
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Sending EP_PROPOSE val = defined: true
+v: 51
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 11
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_PROPOSE type: EP_PROPOSE
+abstractionId: "uc"
+epPropose {
+  value {
+    defined: true
+    v: 51
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_PROPOSE. Broadcasting EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 14
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 17
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Sending EP_PROPOSE val = defined: true
+v: 51
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 14
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 17
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Sending EP_PROPOSE val = defined: true
+v: 51
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 14
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 17
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 20
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_PROPOSE type: EP_PROPOSE
+abstractionId: "uc"
+epPropose {
+  value {
+    defined: true
+    v: 51
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_PROPOSE. Broadcasting EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_PROPOSE type: EP_PROPOSE
+abstractionId: "uc"
+epPropose {
+  value {
+    defined: true
+    v: 51
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_PROPOSE. Broadcasting EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Sending EP_WRITE 40, val = 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 20
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EC_START_EPOCH
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 20
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_WRITE 40, val = 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Sending EP_PROPOSE val = defined: true
+v: 51
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_DECIDED, val = 40
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_PROPOSE type: EP_PROPOSE
+abstractionId: "uc"
+epPropose {
+  value {
+    defined: true
+    v: 51
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_PROPOSE. Broadcasting EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling Nack
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5006
+    owner: "ncoman"
+    index: 3
+    rank: 3
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 23
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Sending EP_WRITE 40, val = 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 23
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 26
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 29
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 26
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 23
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 26
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 29
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 32
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 35
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 38
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 11
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 20
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 20
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 32
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 35
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 29
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_ACCEPT
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 11
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 38
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5005] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Sending EP_DECIDED, val = 51
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5005] Sending EP_WRITE 40, val = 
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 32
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 35
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handle EP_READ
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EP][5006] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 38
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:10 PM|INFO |system_logger                 | [EC][5006] Trigger EC_NACK
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_ACCEPT
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 20
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 6
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 51
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDE, val =defined: true
+v: 51
+ 
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 51
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDE, val =defined: true
+v: 51
+ 
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Sending EP_DECIDED, val = 40
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_ACCEPT
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 51
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDE, val =defined: true
+v: 51
+ 
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_WRITE_
+    epWrite_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_WRITE. Sending EP_ACCEPT_ to leader
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5006
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_ACCEPT
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_ACCEPT
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_ACCEPT
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Sending EP_DECIDED, val = 40
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EP_DECIDED_
+    epDecided_ {
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5005
+  }
+}
+
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDED. Sending EP_DECIDE.
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5005] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5006] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:11 PM|INFO |system_logger                 | [EP][5004] Handling EP_DECIDE, val =defined: true
+v: 40
+ 
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5005
+    owner: "ncoman"
+    index: 2
+    rank: 2
+  }
+}
+
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST type: ELD_TRUST
+eldTrust {
+  process {
+    host: "127.0.0.1"
+    port: 5004
+    owner: "ncoman"
+    index: 1
+    rank: 1
+  }
+}
+
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Handling ELD_TRUST. Boradcasting EC_NEW_EPOCH
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 4
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+}
+
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Handling Nack
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 7
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+}
+
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Handling Nack
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 10
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+}
+
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Trigger EC_NACK
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Handling Nack
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Handling NEW_EPOCH type: BEB_DELIVER
+bebDeliver {
+  message {
+    type: EC_NEW_EPOCH_
+    ecNewEpoch_ {
+      timestamp: 13
+    }
+  }
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+}
+
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EC][5004] Trigger EC_START_EPOCH
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EP][5004] Handling EC_START_EPOCH
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORT. Aborting EP
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EP][5004] Handling EP_ABORTED. Starting new ep
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EP][5004] Sending EP_PROPOSE val = defined: true
+v: 47
+
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EP][5004] Handling EP_PROPOSE type: EP_PROPOSE
+abstractionId: "uc"
+epPropose {
+  value {
+    defined: true
+    v: 47
+  }
+}
+
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EP][5004] Handling EP_PROPOSE. Broadcasting EP_READ
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EP][5004] Handle EP_READ
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EP][5004] Handling EP_READ. Sending EP_STATE to leader
+07/14/2020 03:09:22 PM|INFO |system_logger                 | [EP][5004] Handling EP_STATE type: PL_DELIVER
+plDeliver {
+  sender {
+    host: "127.0.0.1"
+    port: 5004
+  }
+  message {
+    type: EP_STATE_
+    epState_ {
+      valueTimestamp: 11
+      value {
+        defined: true
+        v: 40
+      }
+    }
+  }
+}
+

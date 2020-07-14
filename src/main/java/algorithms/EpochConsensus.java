@@ -3,8 +3,6 @@ package algorithms;
 import static java.util.Objects.nonNull;
 
 import com.sun.tools.javac.util.Pair;
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import lombok.AccessLevel;
@@ -97,7 +95,7 @@ public class EpochConsensus {
                       .build());
             }
 
-            if ( (this.states.size() >  (this.involvedProcesses.size() / 2 ))
+            if ((this.states.size() > (this.involvedProcesses.size() / 2))
                 && this.self.getPort() == this.leader.getPort()) {
               final Pair<Integer, Value> highest = highest(states);
               if (nonNull(highest) && highest.snd.getV() > 0) {
@@ -199,7 +197,7 @@ public class EpochConsensus {
         .info(String.format("[EP][%s] Handling EP_DECIDED %s", self.getPort(), message));
     SystemLogger.getInstance()
         .info(String.format("[EP][%s] Handling EP_DECIDED. Sending EP_DECIDE.", self.getPort()));
-    this.pl.enqueue(
+    this.pl.addFirst(
         Message.newBuilder()
             .setType(Type.EP_DECIDE)
             .setEpDecide(
